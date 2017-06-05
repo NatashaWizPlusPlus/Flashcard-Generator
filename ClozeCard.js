@@ -8,10 +8,10 @@ function ClozeCard(text, cloze){
 
         // The constructed object should have a partial property that 
         //contains only the partial text.
-        var partial = this.text.slice(0,this.text.indexOf(this.cloze));
-        var p = str.includes("");
+        var partial = this.text.slice.cloze(0,this.text.indexOf(this.cloze));
+        // var p = str.includes("");
         var endPartial = this.text.slice(this.text.indexOf(this.cloze)+this.close.length,text.length);
-        var e = str.includes("");
+        // var e = str.includes("");
         // The constructed object should have a fullText property that 
         //contains only the full text.
         this.partial = partial+endPartial;
