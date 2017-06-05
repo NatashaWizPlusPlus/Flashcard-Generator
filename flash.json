@@ -1,0 +1,14 @@
+dataTypes["Number",
+            "String",
+            "Boolean",
+            "Function",
+            "Object",
+             "Null",
+            "Undefined"
+            ]
+
+boolean_operators[
+                    "&&", 
+                    "||", 
+                    "!"
+                ]       
